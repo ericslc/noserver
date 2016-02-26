@@ -18,9 +18,9 @@ $stateProvider
   controller: 'expCtrl',
   templateUrl: '/routes/experience.html'
 })
-.state('messages', {
-  url: '/messages',
-  templateUrl: '/routes/messages.html'
+.state('contact', {
+  url: '/contact',
+  templateUrl: '/routes/contact.html'
 })
 $urlRouterProvider.otherwise('/routes/home');
 
