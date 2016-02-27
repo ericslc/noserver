@@ -5,17 +5,17 @@ $stateProvider
 
 .state('home', {
     url: '/home',
-    controller: 'homeCtrl',
+    controller: 'mainCtrl',
     templateUrl: '/routes/home.html'
 })
 .state('about', {
   url: '/about',
-  controller: 'aboutCtrl',
+  controller: 'mainCtrl',
   templateUrl: '/routes/about.html'
 })
 .state('experience',{
   url:'/experience',
-  controller: 'expCtrl',
+  controller: 'mainCtrl',
   templateUrl: '/routes/experience.html'
 })
 .state('contact', {
