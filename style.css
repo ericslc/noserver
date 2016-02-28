@@ -57,14 +57,23 @@ header {
   background-image: url("https://img1.etsystatic.com/030/0/8647505/il_fullxfull.643477571_nmz9.jpg");
   background-size: cover;
   background-attachment: fixed;
-  height: 780px;
+  height: 1000px;
 }
 
 .homefoot{
-  height: 150px;
   width: 100%;
-  opacity: 0.4;
-  background-color: black;
+  height: 75px;
+  background-color: #111;
+  opacity: 0.10;
+  display: inline-block
+  margin-left: 50px
+}
+.lower {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  margin: 0;
 }
 
 .title{
@@ -102,7 +111,6 @@ header {
        text-align: center;
        font-size: 30px;
        color: #DDC7AF;
-       opacity: 0.99;
    }
 .exppage {
   background-image: url("images/exp.jpg");
