@@ -1,8 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald);
 
 
-.bg {
-  margin: 0 0 0 0;
+.top {
+  margin: 0;
   height: 1000px;
   width: 100%;
     }
@@ -15,9 +15,7 @@ a {
     font-size: 24px;
     margin: 20px;
     text-decoration: none;
-
-
-}
+    }
 .homie:hover{
   color: #7E7570;
   text-decoration: none;
@@ -34,6 +32,7 @@ a {
 }
 .menu {
   text-align: left;
+  padding-top: 30px;
 
 }
 header {
@@ -44,9 +43,12 @@ header {
 }
 
 .myName {
-    font-size: 30px;
-    color: white;
-    height: 30px;
+  text-align: center;
+  font-size: 75px;
+  color: black;
+  font-style: italic;
+  margin: 0;
+  padding-top: 30px
 
 }
 
@@ -54,16 +56,17 @@ header {
 .homepg {
   background-image: url("https://img1.etsystatic.com/030/0/8647505/il_fullxfull.643477571_nmz9.jpg");
   background-size: cover;
-  height: 1000px;
+  background-attachment: fixed;
+  height: 780px;
 }
-.me {
-  text-align: center;
-  font-size: 75px;
-  color: black;
-  font-style: italic;
-  margin: 0;
-  padding-top: 50px
+
+.homefoot{
+  height: 150px;
+  width: 100%;
+  opacity: 0.4;
+  background-color: black;
 }
+
 .title{
   text-align: center;
   font-size: 50px;
@@ -122,10 +125,6 @@ header {
 .work {
   background-size: cover;
 }
-
-
-
-
 
 
    .contactme {

@@ -1,11 +1,12 @@
-angular.module('myApp').controller('mainCtrl', function($scope) {
-  
+angular.module('myApp')
+
+.controller('mainCtrl', ['$scope', function($scope) {
   $scope.name = {
     name: 'Eric Leatham',
   };
-})
-angular.module('myApp').directive('myName', function() {
+}])
+.directive('homeName', function() {
   return {
-    template: '{{name.name}}'
-   };
+    template: '{{name.name}} '
+  };
 });
