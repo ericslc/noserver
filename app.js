@@ -22,6 +22,7 @@ $stateProvider
   url: '/contact',
   templateUrl: '/routes/contact.html'
 })
+
 $urlRouterProvider.otherwise('/routes/home');
 
 });
