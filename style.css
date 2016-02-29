@@ -123,8 +123,11 @@ header {
     background-color: #111;
     opacity: 0.70;
     margin: 0;
+    height:800px;
+    width: 100%;
   }
   .exptitle{
+    text-align: center;
     font-size: 50px;
     color: white;
     font-family: "Oswald", sans-serif;
@@ -133,6 +136,7 @@ header {
   font-size: 25px;
   font-family:  "Oswald", sans-serif;
   color: #DDC7AF;
+  padding: 100px;
      }
 
      .icons{
