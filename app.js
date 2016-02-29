@@ -15,7 +15,7 @@ $stateProvider
 })
 .state('experience',{
   url:'/experience',
-  controller: 'mainCtrl',
+  controller: 'expCtrl',
   templateUrl: '/routes/experience.html'
 })
 .state('contact', {

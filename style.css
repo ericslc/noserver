@@ -112,42 +112,16 @@ header {
    }
 
    /*experience page*/
-.exppage {
-  background-image: url("images/exp.jpg");
+.epage{
   height: 1000px;
   width: 100%;
-  }
-
-
-  .projectslist{
-    background-color: #111;
-    opacity: 0.70;
-    margin: 0;
-    height:800px;
-    width: 100%;
-  }
-  .exptitle{
-    text-align: center;
-    font-size: 50px;
-    color: white;
-    font-family: "Oswald", sans-serif;
-  }
-.projectslist ul li{
-  font-size: 25px;
-  font-family:  "Oswald", sans-serif;
-  color: #DDC7AF;
-  padding: 100px;
-     }
-
-     .icons{
-       display: inline-block;
-       height: 125px;
-       width: 100%;
-     }
-
-.work {
-  background-size: cover;
+  margin: 0;
 }
+.exptitle {
+  text-align: center;
+  font-size: 75px;
+  }
+
 
 /* contact me page*/
    .contactme {
