@@ -92,9 +92,8 @@ header {
       background-image: url("/images/about.jpg");
       background-size: cover;
       height: 1000px;
-      width: 100%;
       text-align: center;
-      padding: 50px
+      padding: 50px;
    }
    .abt{
      text-align: center;
@@ -106,7 +105,7 @@ header {
    }
    .textBox {
 
-       max-width: 100%;
+       max-width: 90%;
        background-color: #111;
        opacity: 0.70;
        display: inline-block
@@ -116,7 +115,6 @@ header {
        text-align: center;
        font-size: 30px;
        color: #DDC7AF;
-
    }
 
    /*experience page completed*/
@@ -239,3 +237,5 @@ padding: 20px;
   padding: 20px;
 
 }
+
+/*media queries*/
