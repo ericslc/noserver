@@ -23,6 +23,6 @@ $stateProvider
   templateUrl: '/routes/contact.html'
 })
 
-$urlRouterProvider.otherwise('/routes/home');
+$urlRouterProvider.otherwise('/home');
 
 });
